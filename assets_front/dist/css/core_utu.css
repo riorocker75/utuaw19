@@ -1,1 +1,5 @@
-/* No CSS */
+.btn-bordered {
+  border: 1px solid #c1c2c3;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
