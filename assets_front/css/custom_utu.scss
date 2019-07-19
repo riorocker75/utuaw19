@@ -1,4 +1,9 @@
 @import "init_utu";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif&display=swap);
+@import url("font-text/medium-font.css");
+@import url("font-text/medium-ori.css");
+@import url("font-text/roboto-dr.css");
 // search nav cutom start
 // navbar atas
 .search-nav {
@@ -14,7 +19,7 @@
   border-radius: 4px;
   line-height: 35px;
   padding: 0px 10px 0px 28px;
-  min-width: 94%;
+  min-width:92%;
   margin-top: 6px;
 }
 .search-area {
@@ -36,7 +41,7 @@
 
   a {
     color: #fff !important;
-    opacity: 0.7;
+    text-decoration: underline transparent;
     i {
       font-size: 20px;
     }
@@ -61,6 +66,71 @@
 }
 
 // end searchin
+
+// nav bawah
+.nav-bawah-right{
+height: 5px;
+
+  li{
+    display:inline-block;
+   
+    padding:0px 8px;
+
+    i{
+      
+      font-size: 20px;
+    }
+    a:hover{
+      color:#fff;
+      opacity: 0.7;
+    }
+  }
+}
+
+
+.has_dropdown_side {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_ct_side {
+	display: none;
+	position: absolute;
+	background: #fff !important;
+	width: 180px;
+	z-index: 1;
+	color: black;
+	right: 0px;
+	border-radius: 4px;
+  box-shadow: $box-shadow-card;
+
+}
+
+.dropdown_ct_side a {
+
+	color: rgba(0, 0, 0, 0.54) !important;
+	fill: rgba(0, 0, 0, 0.54) !important;
+	padding: 0px 10px;
+	
+	letter-spacing: 0.05em !important;
+  line-height: 2.2;
+font-size: 16px;
+  margin-left: -40px;
+  text-decoration: underline transparent;
+}
+
+.dropdown_ct_side li:hover {
+	width: 100%;
+	color: #000 !important;
+  background-color: #f8f9fa !important;
+  
+}
+
+.has_dropdown_side:hover .dropdown_ct_side {
+	display: block;
+}
+// end nav bawah
+
 // end  nav cutom
 
 
