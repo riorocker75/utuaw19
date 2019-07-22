@@ -19,3 +19,17 @@ body {
   min-width: 100%;
   margin-bottom: 10px;
 }
+
+.btn-check-out {
+  padding: 8px 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+@media (max-width: 450px) {
+  .btn-check-out {
+    padding: 4px 20px;
+  }
+}

@@ -3,6 +3,10 @@
 @import url("font-text/medium-font.css");
 @import url("font-text/medium-ori.css");
 @import url("font-text/roboto-dr.css");
+.header-container {
+  padding: 0px 20px;
+}
+
 .search-nav {
   background: blue;
   color: #fff;
@@ -442,6 +446,22 @@
   margin-top: 50px;
 }
 
+.checkout-product a {
+  -webkit-text-decoration: underline transparent;
+          text-decoration: underline transparent;
+}
+
+.ket-checkout-product {
+  padding: 5px 10px;
+  line-height: 30px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 40px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
 .check-main-product {
   background: #fff;
   max-width: 100%;
@@ -480,4 +500,41 @@
   .checkout-img img {
     height: 100px;
   }
+}
+
+.tp-checkout {
+  margin-top: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 520px) {
+  .tp-checkout {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 991px) {
+  .seperator {
+    position: relative;
+    top: 30px;
+  }
+}
+
+.sticky-checkout {
+  padding: 15px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 60px;
+  background: #fff;
+  border-radius: 4px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 2px;
+}
+
+.sticky-checkout span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 10px;
 }
