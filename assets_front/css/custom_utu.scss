@@ -365,3 +365,135 @@ border-bottom: 1px solid #c1c2c3;
 }
 // end product -suggest
 // end single product
+
+
+// product-gird
+.product-gird{
+  margin-top:30px;
+
+}
+    // sidebar form-product-gird
+.product-sidebar-form{
+  box-shadow: $box-shadow-card;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.product-sf-title{
+  border-bottom: 1px solid #c1c2c3; 
+  padding:10px;
+
+    h2{
+      font-size: 20px!important;
+      font-weight: 600;
+
+    }
+}
+
+.product-sf-body{
+  padding:10px;
+  margin-top:5px;
+}
+    // end product sidebar form 
+
+    // product main gird
+  .product-main-gird{
+    box-shadow: $box-shadow-card;
+    max-width: 100%;
+    height: 250px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+
+  .product-mg-img{
+    background:blue;
+    max-width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    img{
+      max-width: 100%;
+    }
+  }
+
+  .product-mg-title{
+    background: yellow;
+    margin:5px;
+    height: 50px;
+
+  }
+  .product-mg-sell{
+    background: green;
+    margin:5px;
+    height: 60px;
+  }
+
+  .pagination-mg{
+    margin-left:-50px!important;
+    li{
+      display: inline-block;
+    }
+
+    .mg-item{
+      width: 25px;
+      padding:3px 6px;
+    }
+
+    a{
+      text-decoration: underline transparent;
+      font-size: 16px!important;
+      font-family: $robosans;
+      font-weight: 600;
+    }
+    
+  }
+    // end product main  gird
+
+// end product-gird
+
+
+// checkout product
+.checkout-product{
+  margin-top:50px;
+
+}
+
+.check-main-product{
+
+  background:#fff;
+  max-width: 100%;
+  height: 160px;
+  box-shadow: $box-shadow-card;
+  border-radius:3px;
+  margin-bottom: 20px;
+
+}
+.title-checkout-product{
+  height: 40px;
+  border:1px solid #c1c2c3;
+  border-radius: 2px;
+  padding:6px 10px;
+font-size:16px;
+font-weight: 500;
+
+  
+}
+.checkout-img{
+  min-width: 100%;
+  height:100px;
+ 
+  border: 4px;
+  margin:10px;
+
+  img{
+  border: 4px;
+  box-shadow: $box-shadow;
+   max-width: 100%;
+   height: 100px; 
+    @media (min-width:300px) and (max-width:520px){
+      height:100px;
+  
+    }
+  }
+ 
+}
+// end checkout product

@@ -3,6 +3,10 @@
 @import url("font-text/medium-font.css");
 @import url("font-text/medium-ori.css");
 @import url("font-text/roboto-dr.css");
+body {
+  background: #f0edf0;
+}
+
 .btn-bordered {
   border: 1px solid #c1c2c3;
   padding: 5px 20px;
