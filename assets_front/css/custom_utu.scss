@@ -241,6 +241,7 @@ font-size: 16px;
 // single prodct
 .product-single{
   margin:10px 0px;
+
 }
 .product-single-container{
   padding:10px;
@@ -248,7 +249,7 @@ font-size: 16px;
 
 .single-img{
 min-width: 100%;
-
+padding:7px;
   img{
     max-width: 100%;
     height: 330px;
@@ -294,6 +295,51 @@ border-bottom: 1px solid #c1c2c3;
     display: block;
     margin-left:-40px;
 
+  }
+}
+
+.sticky-beli{
+  padding:15px!important;
+  box-shadow: 0 -2px 6px 0 rgba(49,53,59,.16);;
+  height: auto;
+  background: #fff;
+  border-radius: 4px;
+ 
+  width: 100%;
+  // position: -webkit-sticky;
+  position: fixed;
+  bottom: -10px;
+  z-index: 1051;
+
+  @media (max-width:600px){
+    padding:6px;
+  }
+
+}
+.harga-sticky-beli{
+  position: relative;
+  top:10px;
+  margin:0px 30px;
+  p{
+    line-height: 0;margin-bottom: 7px;color:#d1d2d3;font-weight: 700
+  }
+  span{
+    font-weight: 600;
+    font-family: $robosans;
+  
+  }
+
+  @media (max-width:800px){
+    margin-bottom:15px; 
+    margin-left:5px;
+
+    p{
+      font-size: 12px;
+    }
+    span{
+      font-size: 14px;
+    }
+  
   }
 }
 
@@ -381,6 +427,8 @@ border-bottom: 1px solid #c1c2c3;
   box-shadow: $box-shadow-card;
   margin-bottom: 20px;
   max-width: 100%;
+  background: #fff;
+  border-radius:4px;
 }
 .product-sf-title{
   border-bottom: 1px solid #c1c2c3; 
@@ -536,15 +584,15 @@ font-size: 14px;
   // end sperator
 // sticky chectout
 .sticky-checkout{
-  padding:15px;
+  padding:13px;
   box-shadow: $box-shadow-card;
-  height: 60px;
+  height: auto;
   background: #fff;
   border-radius: 4px;
-
+  margin-bottom: 10px;
   position: -webkit-sticky;
   position: sticky;
-  bottom: 2px;
+  bottom: 1px;
 
   span{
     font-family: $robosans;
@@ -554,5 +602,82 @@ font-size: 14px;
   
 }
 
+// custom input spinner
+.input-group{
+
+  @media(max-width:520px){
+    max-width: 60%;
+
+  }
+
+}
+
+
+.input-group-prepend{
+  height:30px;
+  margin-right:1px!important;
+background:#9da09a;
+
+
+  
+  strong{
+    position: relative;
+    top:-7px;
+  }
+}
+
+
+.input-group-append{
+  height:30px;
+  margin-right:5px!important;
+  margin-left:1px!important;
+    
+  background: #5A6268;
+  color: #fff!important;
+  strong{
+    position: relative;
+    top:-7px;
+  }
+}
+.btn-outline-secondary{
+  border:2px solid!important; 
+  border-radius:2px!important;
+color: #fff!important;
+  
+}
+
+.input-spinner{
+  height:30px;
+  border:1px #c1c2c3 solid!important; 
+
+  }
+
+
+
+// end custom input spinner
   // end sticky check-out
 // end checkout product
+
+
+
+// chat session
+.chat-sess{
+	position: fixed;
+	bottom:40px;
+	width: 60px;
+	height: 60px;
+	box-shadow: $box-shadow-card;
+	border-radius: 50%;
+	padding: 15px;
+	background: #fff;
+	right: 10px;
+	z-index: 1020;
+	cursor: pointer;
+	transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+	i{
+		position: relative;
+		
+	}
+
+}
+// end chat

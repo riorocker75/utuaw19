@@ -21,8 +21,8 @@
     $.fn.InputSpinner = $.fn.inputSpinner = function (options) {
 
         var config = {
-            decrementButton: "<strong>-</strong>", // button text
-            incrementButton: "<strong>+</strong>", // ..
+            decrementButton: "<strong><i class='fas fa-minus tx-11'></i></strong>", // button text
+            incrementButton: "<strong><i class='fas fa-plus tx-11'></i></strong>", // ..
             groupClass: "", // css class of the resulting input-group
             buttonsClass: "btn-outline-secondary",
             buttonsWidth: "2.5rem",
